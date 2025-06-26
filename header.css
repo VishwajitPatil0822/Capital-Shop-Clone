@@ -1,0 +1,52 @@
+.custom-header {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 10px 50px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right {
+  margin-left: 800px;
+  gap: 15px;
+}
+
+.header-divider {
+  border-left: 1px solid #ccc;
+  height: 15px;
+  margin: 0 10px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-icons i {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.header-left a,
+.header-right a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-left a:hover,
+.header-right a:hover {
+  text-decoration: underline;
+}

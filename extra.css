@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    margin: 40px 0 40px;
+}
+
+.products,
+.testimonial,
+.news,
+.footer {
+    padding: 0 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.product img,
+.news-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.product h4,
+.news-item h4 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product p del {
+    color: gray;
+    margin-left: 10px;
+}
+
+.testimonial {
+    text-align: center;
+    background-color: #f6f2ec;
+    padding: 40px 50px;
+}
+
+.testimonial p {
+    margin: 10px 0;
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 40px 50px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
